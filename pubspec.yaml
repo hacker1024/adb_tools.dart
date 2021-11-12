@@ -1,0 +1,23 @@
+name: adb_tools
+description: Tools for working with Android devices via ADB.
+version: 0.1.0
+homepage: https://github.com/hacker1024/adb_tools
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  ## Language
+  async: ^2.8.2
+
+  ## I/O
+  path: ^1.8.0
+  dio: ^4.0.1
+  yes: ^0.1.0
+
+  ## Parsing
+  html: ^0.15.0
+  archive: ^3.1.6
+
+dev_dependencies:
+  lint: ^1.7.2
